@@ -1,0 +1,190 @@
+.head {
+    background-color: #caf0f8;
+    padding: 5px;
+    z-index: 1;
+}
+
+.main {
+    background-image: url('../image/bg/bg5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+.services {
+    background-color: #ffffff;
+}
+
+.clients {
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+/* Start Feature Box 
+---------------------*/
+.feature-box-1 {
+    padding: 32px;
+    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+    margin: 15px 0;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    top: 0;
+}
+
+.feature-box-1 * {
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+}
+
+.feature-box-1 .icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #fc5356;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 22px;
+    font-size: 27px;
+}
+
+.feature-box-1 .icon i {
+    line-height: 70px;
+}
+
+.feature-box-1 h5 {
+    color: #20247b;
+    font-weight: 600;
+}
+
+.feature-box-1 p {
+    margin: 0;
+}
+
+.feature-box-1:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    border-radius: 10px;
+    width: 0;
+    background: #20247b;
+    z-index: -1;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+}
+
+.feature-box-1:hover {
+    top: -5px;
+}
+
+.feature-box-1:hover h5 {
+    color: #ffffff;
+}
+
+.feature-box-1:hover p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.feature-box-1:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    left: 0;
+    right: auto;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.section-title {
+    padding-bottom: 45px;
+}
+
+.section-title span {
+    font-weight: 700;
+    color: #20247b;
+    font-size: 45px;
+    margin: 0 0 15px;
+    border: 5px solid #fc5356;
+    padding: 15px;
+}
+
+.section-title p {
+    margin-top: 30px;
+}
+
+/* End Feature Box 
+---------------------*/
+
+.counter-section i {
+    display: block;
+    margin: 0 0 10px
+}
+
+.counter-section span.counter {
+    font-size: 40px;
+    color: #000;
+    line-height: 60px;
+    display: block;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px
+}
+
+.counter-title {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.counter-icon {
+    top: 25px;
+    position: relative
+}
+
+.counter-style2 .counter-title {
+    letter-spacing: 0.55px;
+    float: left
+}
+
+.counter-style2 span.counter {
+    letter-spacing: 0.55px;
+    float: left;
+    margin-right: 10px
+}
+
+.counter-style2 i {
+    float: right;
+    line-height: 26px;
+    margin: 0 10px 0 0
+}
+
+.counter-subheadline span {
+    float: right
+}
+
+.medium-icon {
+    font-size: 40px !important;
+    margin-bottom: 15px !important
+}
+

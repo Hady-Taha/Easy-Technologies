@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+* {
+direction: rtl;
+    font-family: 'Cairo',
+    sans-serif;
+}
+
+.en {
+    direction: ltr !important;
+    font-family: 'DM Sans',
+        sans-serif !important;
+}
+
+.text-sm {
+    font-size: small;
+}
+
+.text-md {
+    font-size: medium;
+}
+
+.text-lg {
+    font-size: large;
+}
+
+.none-decor {
+    text-decoration: none;
+}
+
+
+.img-filter {
+    filter: brightness(42%);
+    -webkit-filter: brightness(42%);
+    -moz-filter: brightness(42%);
+}
+
+.img-filter2 {
+    filter: grayscale(100%) brightness(114%) saturate(0%) contrast(95%) invert(6%);
+    -webkit-filter: grayscale(100%) brightness(114%) saturate(0%) contrast(95%) invert(6%);
+    -moz-filter: grayscale(100%) brightness(114%) saturate(0%) contrast(95%) invert(6%);
+}
+
+.glass {
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
